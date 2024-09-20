@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav>a {
+  text-align: center;
+  padding: 1em;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+  background-size: cover;
+}
+
+#hero-content {
+  max-width: 38em;
+  margin: auto;
+  padding: 1em;
+}
+
+#header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header-left img {
+  margin: 0.5em;
+}
+
+#menu-toggle {
+  margin: 1em;
+  padding: 0;
+}
+
+#content {
+  max-width: 52em;
+  padding: 0 1em;
+  margin: auto;
+  text-align: justify;
+  text-justify: auto;
+}
+
+#service-summaries {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+
+.service-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+  padding: 1em;
+}
+
+.service-summary h3 {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: auto;
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+
+  #service-summaries {
+    flex-direction: row;
+  }
+
+  .service-summary {
+      width: 25%;
+  }
+}

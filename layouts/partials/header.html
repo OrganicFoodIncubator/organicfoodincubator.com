@@ -1,0 +1,14 @@
+<div id="header-left">
+<a id="logo" href="{{ .Site.BaseURL }}">
+    {{ with resources.Get "media/logo.webp" }}
+    <img src="{{ .Permalink }}" alt="OFI Logo" height="50" width="50">
+    {{ end }}
+    <span id="company-name">{{ .Site.Title }}</span>
+</a>
+<button type="button" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+</button>
+</div>
+<nav id="menu">
+    {{ partial "header/nav.html" . }}
+</nav>

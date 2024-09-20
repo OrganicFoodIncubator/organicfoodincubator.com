@@ -1,0 +1,3 @@
+{{ range resources.Match "scripts/*.js" }}
+    <script src="{{ .Permalink }}" defer></script>
+{{ end }}

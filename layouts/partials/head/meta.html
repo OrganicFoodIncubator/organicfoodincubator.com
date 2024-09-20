@@ -1,0 +1,6 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ $pageTitle := printf "%s | %s" .Title .Site.Title }}
+{{ if .IsHome }}{{ $pageTitle = .Site.Title }}{{ end }}
+<meta name="title" content="{{ $pageTitle }}">
+<meta name="description" content="{{ .Summary }}">

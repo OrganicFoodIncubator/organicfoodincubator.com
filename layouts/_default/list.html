@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1 class="centered">{{ .Title }}</h1>
+<section id="content">
+{{ .Content | safeHTML }}
+{{ range .Pages }}
+<div class="page">
+    <a href="{{ .Permalink }}" class="headline">{{ .Title }}</a>
+    <p>{{ .Summary | plainify }}</p>
+</div>
+{{ end }}
+</section>
+{{ end }}

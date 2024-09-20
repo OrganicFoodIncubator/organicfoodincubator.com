@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ $heroImage := resources.Get .Params.background_image }}
+<div id="hero" class="centered" style="background-image: url({{ $heroImage.Permalink | safeHTML }});">
+<div id="hero-content">
+<h1>{{ .Title }}</h1>
+<p>{{ .Description }}</p>
+</div>
+</div>
+<section id="content">
+{{ .Content | safeHTML }}
+</section>
+<h2 class="centered">Our Services</h2>
+<div id="service-summaries">
+{{ partial "home/services.html" . }}
+</div>
+{{ end }}

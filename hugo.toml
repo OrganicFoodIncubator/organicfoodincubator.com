@@ -1,0 +1,14 @@
+baseURL = 'https://ofiwebsite.github.io/'
+languageCode = 'en-us'
+title = 'Organic Food Incubator'
+
+sectionPagesMenu = "main"
+
+[[menus.main]]
+name = 'Contact Us'
+pageRef = '/contact'
+
+[params]
+contactEmail = "info@organicfoodincubator.com"
+telNo = "(973) 748-0111"
+streetAddress = "38 Davey St. Bloomfield, NJ 07003"

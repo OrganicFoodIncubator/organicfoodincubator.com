@@ -1,0 +1,7 @@
+{{ range (.Site.GetPage "/what-we-do").Pages }}
+<div class="service-summary">
+<h3>{{ .LinkTitle }}</h3>
+<p>{{ .Summary }}</p>
+<a href="{{ .Permalink }}" class="learn-more">Learn more...</a>
+</div>
+{{ end }}

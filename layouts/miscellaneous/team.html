@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1 class="centered">{{ .Title }}</h1>
+<section id="main">
+    {{ range .Pages }}
+        <div class="profile">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
+    {{ end }}
+</section>
+{{ end }}

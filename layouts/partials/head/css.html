@@ -1,0 +1,3 @@
+{{ with resources.Match "styles/*.css" | resources.Concat "styles/bundle.css" | resources.Minify }}
+    <link rel="stylesheet" href="{{ .Permalink }}">
+{{ end }}

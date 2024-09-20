@@ -1,0 +1,28 @@
+body {
+      background-color: #ededed;
+      color: #161616;
+}
+
+a {
+     color: #538D32;
+     text-decoration: none;
+}
+
+a:hover {
+      text-decoration: underline;
+}
+
+footer {
+      background-color: #161616;
+      color: #ededed;
+}
+
+#menu-toggle {
+      background-color: transparent;
+      border: none;
+      font-size: 1em;
+}
+
+#hero-content {
+      color: #ededed
+}
