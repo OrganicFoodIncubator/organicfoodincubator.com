@@ -8,4 +8,4 @@ background_image = "media/chilis.jpg"
 
 ## About Us {.centered}
 
-The Organic Food Incubator crafts distinctive and high-quality products with our clients. Our vision is to empower emerging brands and artisans by providing expert co-packing services that uphold the values of authenticity, innovation, and sustainability. We count our employees as major stakeholders in our company’s future and our clients’ success. Through our commitment to excellence and personalized partnerships, we aim to contribute significantly to the success and growth of our clients and the communities we serve.
+The Organic Food Incubator crafts distinctive and high-quality products with our clients. Our vision is to empower emerging brands and artisans by providing expert co-packing services that uphold the values of honesty, innovation, and sustainability. We count our employees as major stakeholders in our company’s future and our clients’ success. Through our commitment to excellence and personalized partnerships, we aim to contribute significantly to the success and growth of our clients and the communities we serve.
