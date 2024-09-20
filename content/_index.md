@@ -3,7 +3,7 @@ title = "Solutions for Food and Beverage Manufacturing  "
 description = "We specialize in creating innovative products for CPG brands, food service enterprises, and other innovators in the food industry. Whether organic or conventional, the OFI offers a complete solution for businesses eager to launch new offerings or expand their existing products in the market. We are a team of chefs, food scientists, and business leaders with a passion for all things food and business."
 
 [params]
-background_image = "media/chilis.jpg"
+background_image = "media/bg.jpg"
 +++
 
 ## About Us {.centered}

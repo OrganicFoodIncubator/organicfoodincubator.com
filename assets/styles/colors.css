@@ -17,6 +17,10 @@ footer {
       color: #ededed;
 }
 
+.service-summary {
+      background-color: #cecece;
+}
+
 #menu-toggle {
       background-color: transparent;
       border: none;

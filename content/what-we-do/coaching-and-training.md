@@ -2,6 +2,9 @@
 title = "Coaching and Training"
 summary = "Our decades of experience help navigate product scaling complexities, understand consumer trends, and comply with various food safety regulators. With OFI support, you can make informed decisions, avoid common pitfalls, and achieve long-term success in the competitive food industry."
 weight = 30
+
+[params]
+featured_img = 'media/mike-staring-seriously-at-computer.webp'
 +++
 
 With years of focused experience, the OFI team possesses a nuanced understanding of the food sector and the challenges faced when launching new CPG products. This specialization enables the creation of tailored solutions that are efficient and highly effective. OFI's expertise ensures that every solution is based on thorough research, best practices, and innovative approaches, making its services reliable and sought-after by clients who seek partners that can add genuine value to their operations.

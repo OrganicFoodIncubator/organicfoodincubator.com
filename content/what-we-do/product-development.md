@@ -2,6 +2,9 @@
 title = "Product Development"
 summary = "Create and refine your recipe to be delicious, safe, and shelf-ready. Led by a team of seasoned chefs, OFI brings a passion for food and decades of culinary expertise to your product development."
 weight = 40
+
+[params]
+featured_img = "media/mike-staring-seriously-at-computer.webp"
 +++
 
 Create and refine your recipe to be delicious, safe, and shelf-ready. Led by a team of seasoned chefs, OFI brings a passion for food and decades of culinary expertise to your product development.

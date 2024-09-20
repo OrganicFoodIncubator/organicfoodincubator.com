@@ -2,6 +2,9 @@
 title = "Contract Manufacturing"
 summary = "Our agile approach allows us to navigate regulations, enhance processes, and package products swiftly. Our state-of-the-art cooking, filling, and labeling equipment is designed to meet a broad spectrum of client needs, significantly cutting product development time."
 weight = 10
+
+[params]
+featured_img = "media/filler.jpeg"
 +++
 
 ## Commercialize Your New Or Existing Food Business
